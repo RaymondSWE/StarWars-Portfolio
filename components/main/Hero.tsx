@@ -44,7 +44,7 @@ const Hero = () => {
             <div className="Welcome-box py-2 px-2 border border-[#7042f88b] opacity-[0.9]">
               <FaCode className="text-[#b49bff] mr-[10px] h-5 w-5" />
               <div className="Welcome-text italic md:text-xl text-xs px-2 ml-[-12px] font-semibold">
-                Raman Mohammed - Software Engineer
+                Raman - Software Engineer
               </div>
             </div>
           </div>
@@ -105,7 +105,7 @@ const Hero = () => {
           <div className="relative overflow-hidden rounded-3xl bg-[#ffffff10] backdrop-blur-xl border border-border-custom flex justify-center items-center shadow-sm shadow-gray-800 w-[200px] h-[300px] md:w-[250px] md:h-[300px] lg:w-[300px] lg:h-[370px]">
             <Image
               src="/happy-raman.jpg"
-              alt="Raman Mohammed Image"
+              alt="Raman Image"
               className="object-cover object-bottom filter grayscale contrast-65 opacity-90"
               priority
               fill

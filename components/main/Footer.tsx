@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row justify-between items-center lg:items-center">
             <div className="text-white text-center lg:text-left mb-8 lg:mb-0">
               <h2 className="text-3xl font-semibold mb-2 Welcome-text">
-                Raman Mohammed
+                Raman
               </h2>
               <p className="text-gray-400 italic">Fullstack Developer</p>
               <p className="text-gray-400 text-sm mt-4">
@@ -26,7 +26,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white text-4xl hover:scale-110 transition-transform mirror"
-                aria-label="Raman Mohammed on GitHub"
+                aria-label="Raman on GitHub"
               >
                 <FaGithub />
               </a>
@@ -35,14 +35,14 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white text-4xl hover:scale-110 transition-transform mirror"
-                aria-label="Raman Mohammed on Linkedin"
+                aria-label="Raman on Linkedin"
               >
                 <FaLinkedinIn />
               </a>
               <a
                 href="mailto:RamanMohammed@hotmail.com"
                 className="text-white text-4xl hover:scale-110 transition-transform mirror"
-                aria-label="Raman Mohammed on Email"
+                aria-label="Raman on Email"
               >
                 <FaEnvelope />
               </a>
