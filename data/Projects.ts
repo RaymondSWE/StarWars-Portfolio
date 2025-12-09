@@ -4,6 +4,46 @@ export const projectsData = [
   {
     id: 1,
     category: ProjectCategories.WebApplication,
+    src: '/project-img/woberry.png', 
+    title: 'Woberry - AI Career Copilot',
+    description:
+      'A production-ready AI platform helping job seekers beat ATS robots. Features an ATS-optimized Resume Builder, AI Cover Letter Generator, and a Salary Negotiation Script engine backed by real market data.',
+    sourceUrl: 'https://www.woberry.com',
+    youtubeUrl: null, 
+    githubUrl: 'https://github.com/RaymondSWE/resume-ats-hacks',
+    startDate: '2024-05-01', 
+    endDate: null, 
+    technologyStack: [
+      'Next.js',
+      'TypeScript',
+      'OpenAI API',
+      'Stripe',
+      'Tailwind CSS',
+      'PostgreSQL',
+      'Vercel',
+      'React PDF',
+      'Edge Functions',
+    ],
+    features: [
+      'ATS-Optimized Resume Builder achieving 98/100 screening scores.',
+      'Salary Negotiation Script Generator using real-time market data.',
+      'AI Cover Letter Generator tailored to specific job descriptions.',
+      'Freemium SaaS model with Stripe payments and user authentication.',
+    ],
+    challenges: [
+      'Reverse-engineering ATS parsing logic to ensure PDF readability for bots.',
+      'Aggregating accurate salary data for specific roles and locations to power the negotiation engine.',
+      'Balancing AI generation latency with a seamless, real-time user experience.',
+    ],
+    accomplishments: [
+      'Built and launched a complete SaaS product while studying at Chalmers University of Technology.',
+      'Open-sourced core templates to help the developer community via GitHub.',
+      'Helped students and professionals land jobs by solving the "Black Box" hiring problem.',
+    ],
+  },
+  {
+    id: 2,
+    category: ProjectCategories.WebApplication,
     src: '/project-img/csgo.png',
     title: 'CSFairTrade',
     description:
@@ -51,7 +91,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     category: ProjectCategories.WebApplication,
     src: '/project-img/codemate.png',
     title: 'CodeMate',
@@ -99,7 +139,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     category: ProjectCategories.DesktopApplication,
     src: '/project-img/queue-student.png',
     title: 'Student Queue System',
@@ -139,7 +179,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     category: ProjectCategories.WebApplication,
     src: '/project-img/starwars-portfolio.png',
     title: 'Web portfolio',
@@ -178,7 +218,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     category: ProjectCategories.WebApplication,
     src: '/project-img/massageapp.png',
     title: "Bally's Massage Appointments System",
@@ -217,7 +257,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     category: ProjectCategories.DesktopApplication,
     src: '/project-img/blackjack.png',
     title: 'Blackjack Game',
@@ -243,7 +283,7 @@ export const projectsData = [
   },
 
   {
-    id: 7,
+    id: 8,
     category: ProjectCategories.WebApplication,
     src: '/project-img/webportfolio.png',
     title: 'Old Web Portfolio',
@@ -274,7 +314,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     category: ProjectCategories.DevOps,
     src: '/project-img/cluster.png',
     title: 'Kubernetes Scaling Analysis: A Performance and Cost Comparison',
@@ -312,7 +352,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     category: ProjectCategories.WebApplication,
     src: '/project-img/validation-app.png',
     title: 'Validation-Focused Web Application',
